@@ -86,12 +86,12 @@ Created on Fri Jul 28 11:01:00 2023
  #   bolinuvchilar.append(10)
 #3print(f"{son} soni {bolinuvchilar} sonlariga qoldiqsi bo'linadi")  
   
-#son=int(input("butun son kiritng>>>"))
-#bolinuvchilar=[]
-#for n in range(2,11):
-#    if son%n==0:
-#        bolinuvchilar.append(n)
-#print(f"{son} soni {bolinuvchilar} ga qoldiqsiz bo'linadi")        
+son=int(input("butun son kiritng>>>"))
+bolinuvchilar=[]
+for n in range(2,11):
+    if son%n==0:
+        bolinuvchilar.append(n)
+print(f"{son} soni {bolinuvchilar} ga qoldiqsiz bo'linadi")        
 
 
 
